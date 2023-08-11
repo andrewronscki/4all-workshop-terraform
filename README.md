@@ -1,13 +1,13 @@
-#  DevOps Infrastructure
+# DevOps Infrastructure
 
-##  Rodando o projeto
+## Rodando o projeto
 
-###  Pré-requisitos
+### Pré-requisitos
 
 - Terraform
 - AWS CLI
 
-###  Primeiros passos
+### Primeiros passos
 
 Abra o arquivo `variables.tf` e faça as mudanças necessárias.
 
@@ -23,8 +23,5 @@ Abra o terminal no diretório do projeto
 - `terraform destroy`: Irá rodar o planejamento e perguntar se você quer destruir sua infra. Podemos utilizar o comando `terraform destroy -auto-approve` para destruir automaticamente (Não é recomendado).
 
 Para aplicar qualquer mudanças na infra acesse a documentação:
-- https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
-<p align="center">
-  <img src="./infra.png" width="600" alt="Infraestrutura" />
-</p>
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs
